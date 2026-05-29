@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+.vercel
+.env*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+tmp
+assets
+index.html
+script.js
+styles.css
+preview.png

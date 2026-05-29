@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f5f8f7;
+  color: #17212b;
+}
+
+body,
+button,
+textarea {
+  font-family: Inter, "Noto Sans JP", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.dark body {
+  background: #111827;
+  color: #f8fafc;
+}
+
+::selection {
+  background: rgba(15, 159, 143, 0.2);
+}
